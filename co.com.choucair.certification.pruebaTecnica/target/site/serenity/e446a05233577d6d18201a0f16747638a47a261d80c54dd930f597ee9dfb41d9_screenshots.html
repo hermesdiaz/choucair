@@ -1,0 +1,283 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="3074f3ca22ac516d05ee5f95f2358e9a8a0ff1887c7e8083ca977b30fda9412c.html">Account Creation On Utest Page</a></span>
+                > <span class="truncate-60"><a
+                    href="e446a05233577d6d18201a0f16747638a47a261d80c54dd930f597ee9dfb41d9.html">Simple google search </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 08-10-2021 07:52</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Account Creation On Utest Page </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a web user, I want to register on the uTest page to get an account.
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Simple google search
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given a web browser on the uTest page<br>When you click on the Joid Today option and the information is filled out<br><table class='embedded'><thead><th>strNombre</th><th>strApellido</th><th>strEmail</th><th>strMes</th><th>strDia</th><th>strAno</th><th>strCiudad</th><th>strCodigoPostal</th><th>strPais</th><th>strComputer</th><th>strVersion</th><th>strLanguagePc</th><th>strMobileDevice</th><th>strModel</th><th>strOS</th><th>strPassword</th></thead><tbody><tr><td>&lt;strNombre&gt;</td><td>&lt;strApellido&gt;</td><td>&lt;strEmail&gt;</td><td>&lt;strMes&gt;</td><td>&lt;strDia&gt;</td><td>&lt;strAno&gt;</td><td>&lt;strCiudad&gt;</td><td>&lt;strCodigoPostal&gt;</td><td>&lt;strPais&gt;</td><td>&lt;strComputer&gt;</td><td>&lt;strVersion&gt;</td><td>&lt;strLanguagePc&gt;</td><td>&lt;strMobileDevice&gt;</td><td>&lt;strModel&gt;</td><td>&lt;strOS&gt;</td><td>&lt;strPassword&gt;</td></tr></tbody></table><br>Then a new user account must be created</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="eaf5a6bb36fa549ee67be82c7942c94773d18d282f77190e408f8c1c4aa72a94.png" title=" Example: {strNombre=Hermes, strApellido=diaz, strEmail=hermeiaz12@hotmail.com, strMes=5, strDia=28, strAno=1997, strCiudad=Villavicencio, strCodigoPostal=500001, strPais=brazil, strComputer=Windows, strVersion=7, strLanguagePc=spanish, strMobileDevice=Alcatel, strModel=MD01, strOS=Android 2.0, strPassword=HermesDiaz19970528}" width="1920"/>
+                <img src="eaf5a6bb36fa549ee67be82c7942c94773d18d282f77190e408f8c1c4aa72a94.png" title=" Given a web browser on the uTest page" width="1920"/>
+                <img src="eaf5a6bb36fa549ee67be82c7942c94773d18d282f77190e408f8c1c4aa72a94.png" title=" Usuario open up" width="1920"/>
+                <img src="eaf5a6bb36fa549ee67be82c7942c94773d18d282f77190e408f8c1c4aa72a94.png" title=" usuario opens the Choucair utest page" width="1920"/>
+                <img src="eaf5a6bb36fa549ee67be82c7942c94773d18d282f77190e408f8c1c4aa72a94.png" title=" Usuario open up (completed)" width="1920"/>
+                <img src="f6247ec92ef19592ca5114b2d57c86bca1b69843bfe00ce53638b2908c05d9fc.png" title=" Usuario jointoday" width="1920"/>
+                <img src="f6247ec92ef19592ca5114b2d57c86bca1b69843bfe00ce53638b2908c05d9fc.png" title=" usuario clicks on Button that shows us the form to register" width="1920"/>
+                <img src="f6247ec92ef19592ca5114b2d57c86bca1b69843bfe00ce53638b2908c05d9fc.png" title=" Usuario jointoday (completed)" width="1920"/>
+                <img src="f6247ec92ef19592ca5114b2d57c86bca1b69843bfe00ce53638b2908c05d9fc.png" title=" Given a web browser on the uTest page (completed)" width="1920"/>
+                <img src="f21728e602242cd19d5572c2e458f91686752f99ae65b9c16e10d71cd9b09041.png" title=" When you click on the Joid Today option and the information is filled out
+| strNombre | strApellido | strEmail | strMes | strDia | strAno | strCiudad | strCodigoPostal | strPais | strComputer | strVersion | strLanguagePc | strMobileDevice | strModel | strOS | strPassword |
+| Hermes | diaz | hermeiaz12@hotmail.com | 5 | 28 | 1997 | Villavicencio | 500001 | brazil | Windows | 7 | spanish | Alcatel | MD01 | Android 2.0 | HermesDiaz19970528 |" width="1920"/>
+                <img src="f21728e602242cd19d5572c2e458f91686752f99ae65b9c16e10d71cd9b09041.png" title=" Usuario step one" width="1920"/>
+                <img src="f21728e602242cd19d5572c2e458f91686752f99ae65b9c16e10d71cd9b09041.png" title=" usuario enters 'Hermes' into where do we write the user" width="1920"/>
+                <img src="07351c0421afa306010186fd65b64a7be7052f2e599aa339d951e9b680f8e962.png" title=" usuario enters 'diaz' into where do we write the user" width="1920"/>
+                <img src="00efd02e5e326a05c57e8747d3b89f1a6575d1422256fe0049e7007596800c95.png" title=" usuario enters 'hermeiaz12@hotmail.com' into where do we write the user" width="1920"/>
+                <img src="4b7e4f4644a283a61c2fa2b30ba6c3cafeb1ff62ad6174809645e069825eee09.png" title=" usuario selects index 5 in Button to confirm login" width="1920"/>
+                <img src="3b69284bbd419b1ece743e117423957770d63f2c12f9970802d455edbad055b5.png" title=" usuario selects index 28 in Button to confirm login" width="1920"/>
+                <img src="f6a4f756a07c61545d9dc2b53d24d43d47b84d249273221056c52a788384da38.png" title=" usuario select 1997 on Button to confirm login" width="1920"/>
+                <img src="cbc7205d0fd9b13146fe2764357b0f30bac67d5eb23742eb38572db84bbc2939.png" title=" usuario clicks on Button to confirm login" width="1920"/>
+                <img src="805a2209f8c4feb3db9b6b8979c001741eb42b209784b90480309f5a5375ce83.png" title=" usuario enters 'Villavicencio' into where do we write the user" width="1920"/>
+                <img src="1037f61d86a46370d180a22f80eb8c5699e09f7cb0d8f3f3651e1e79152e6acc.png" title=" usuario types 'DOWN' in where do we write the user" width="1920"/>
+                <img src="d431cfbde1b643bf165e31e867a66c2d7e1237b6aac654117d1bc9b91e4874f1.png" title=" usuario types 'ENTER' in where do we write the user" width="1920"/>
+                <img src="cbc6106991f5059105cf6335a5989dadbf8855744f0a1290f34e9e7ec13c4e64.png" title=" usuario enters '500001' into where do we write the user" width="1920"/>
+                <img src="afd89193f1cb95af46adac638ee2d1a52f83b9350fc50cd5aa1c38aa7fad89ce.png" title=" usuario clicks on Button to confirm login" width="1920"/>
+                <img src="f97dc8e445b1a8429e66f28d99400a38b6fc94b0a4b59e321fbd23783f134d12.png" title=" usuario enters 'brazil' into Caja de texto" width="1920"/>
+                <img src="45109bf90ebd88ea107522b62d87241707cfd50f434938a6ca297bccdf6785ac.png" title=" usuario types 'ENTER' in Caja de texto" width="1920"/>
+                <img src="d8f73506548d68af85cfeba4a22c1548890fc85e5e4e1a2e46066b7970b548fe.png" title=" usuario clicks on Button to confirm login" width="1920"/>
+                <img src="ef9f9fe44d61c90389e7012d149ce4baa09e606733fc14e02bc103634945bcd4.png" title=" usuario clicks on locate field to write computer s.o" width="1920"/>
+                <img src="feabac3df166e081250fc3bf9a9c96c9b5f688c6a93a91de46bb6c923408dbb8.png" title=" usuario enters 'Windows' into locate field to write computer s.o" width="1920"/>
+                <img src="91e7e3c4dc0869f37acc9b32cff69fca8d7efdd68d2084504de7a94d332eb800.png" title=" usuario types 'DOWN' in locate field to write computer s.o" width="1920"/>
+                <img src="04aeeb31a18e8faca174ad79f46e8db1cd9ab8b4b86a2484e90fe89639aa13e9.png" title=" usuario types 'ENTER' in locate field to write computer s.o" width="1920"/>
+                <img src="63bc06c9d02d9533c77b0cf7db97d6687ca4046592a7341625d7eafa4266f0e3.png" title=" usuario clicks on locate field to write computer s.o" width="1920"/>
+                <img src="c2168bc62bede5284a6036146c87fa11632cbe9a25f777013a86749cf9f64bfa.png" title=" usuario enters '7' into locate field to write version s.o" width="1920"/>
+                <img src="24a41313e9041c8d10404085d759ef1b9f8e3991a4e4e43cfca2625927a07ffd.png" title=" usuario types 'DOWN' in locate field to write version s.o" width="1920"/>
+                <img src="304db8b1ccebd304920e62abfd97bd80cf587543d66751bddc3bdf9c66170d03.png" title=" usuario types 'ENTER' in locate field to write version s.o" width="1920"/>
+                <img src="55ee39e4b51864ac7c54e2dccd3395b016ab366e624813ea811c7d2486c44b74.png" title=" usuario clicks on locate field to write language PC" width="1920"/>
+                <img src="beaae899f6aedb105a1787d3565c38ab223be8eae24c0e455bfca6f74bee5df0.png" title=" usuario enters 'spanish' into locate field to write Language PC" width="1920"/>
+                <img src="38896aa0fafb79ce8c204f4cf7ed3695c967738d2f3e6aef71e9dc042f00bfef.png" title=" usuario types 'DOWN' in locate field to write Language PC" width="1920"/>
+                <img src="2711970be4fa2078a6a22031b25044c9730b876490a6ad4dcb47168ba5f16dbc.png" title=" usuario types 'ENTER' in locate field to write Language PC" width="1920"/>
+                <img src="a37233523c0b99e371bc9d1e6cc7786886288c2f48dff32b47d3634208061a2a.png" title=" usuario clicks on locate field to write mobile device" width="1920"/>
+                <img src="8d0e7939ee825d8de3a1e901c4fb71527817b61ac580b53fff06884fef6ef740.png" title=" usuario enters 'Alcatel' into locate field to write mobile device" width="1920"/>
+                <img src="f1448d7da2d13374f89ba435f5afc6f464064cd068c854d87d91720dd07d985b.png" title=" usuario types 'DOWN' in locate field to write mobile device" width="1920"/>
+                <img src="acc5c4237a1ce21a43d0782d8f8802d3847d5635a96631edb30af70225257511.png" title=" usuario types 'ENTER' in locate field to write mobile device" width="1920"/>
+                <img src="4ee6a8cce4bff75bf04450c435faea67baee5e3cee30b5e7d801f64dce2eb564.png" title=" usuario clicks on locate field to write model device" width="1920"/>
+                <img src="4d2fc4c995a87c84a99e9b4183a8a7faa8e95a1ea30f509e750415b7a25a9cb4.png" title=" usuario enters 'MD01' into locate field to write model device" width="1920"/>
+                <img src="5cc6f7c6f850e906dd4198d13c5d715df9ed8cc2cf96f61a447f0a1509af37b6.png" title=" usuario types 'DOWN' in locate field to write model device" width="1920"/>
+                <img src="d666f5444b3b086d93fa601b1ce0137c7a6194aed2656be72044e21ca134d204.png" title=" usuario types 'ENTER' in locate field to write model device" width="1920"/>
+                <img src="7ef293f7a359d925c7866e0c7ff360916707154ab77a05b5b65ac3d3683614d3.png" title=" usuario clicks on locate field to write mobile device os" width="1920"/>
+                <img src="fac1a9bc118cd56380b6f96dee328325a965a27e4381c878c37b90f956972142.png" title=" usuario enters 'Android 2.0' into locate field to write mobile device os" width="1920"/>
+                <img src="d4a8b45d0c8acfdbe3ddc32f9e35e4cfcb992ef25d72cddd6c1a314f6b3026df.png" title=" usuario types 'DOWN' in locate field to write mobile device os" width="1920"/>
+                <img src="1f606d08d18d0be1ae166869856653eac77fd91a0bd332b1f9689dc2affbbd6c.png" title=" usuario types 'ENTER' in locate field to write mobile device os" width="1920"/>
+                <img src="9d43f3b84d8c9f95adb9e15d9be88de3a451f6e65a9860a026c3e4f2179bd921.png" title=" usuario clicks on locate button to next stepFour, last step" width="1920"/>
+                <img src="89042040a72d08f5ab9ba561af3d12f2f45bf4e911f16120296a31b1d31f3a9f.png" title=" usuario enters 'HermesDiaz19970528' into locate input to write password" width="1920"/>
+                <img src="76fd0e46743de27866b9ff573b9e4ecb76cb0052761550e490fe674e6fd8b2dc.png" title=" usuario enters 'HermesDiaz19970528' into locate input to write confirm password" width="1920"/>
+                <img src="2cd19dbfaf4ec3707f2d27403d7432ddb60213212aefae9e9e7ccb6d185ec3c6.png" title=" usuario clicks on locate checkbox to accept receive info" width="1920"/>
+                <img src="e4a36d1ed94843c69190683ff65aba22098f8347948d20f148632b9a0a082e2b.png" title=" usuario clicks on locate checkbox to accept terms use" width="1920"/>
+                <img src="7e398c32cce005768971def6ac6c0e1dca9759fdbc73d319195d83eb3cb4208e.png" title=" usuario clicks on locate checkbox to accept privacy and security policy" width="1920"/>
+                <img src="a6fb055ade9abe785e6c712daf17b78479a063b4b04495a59a5665cf15ab0c9a.png" title=" usuario clicks on locate button finish signup process" width="1920"/>
+                <img src="c67f6fbdcdfdd427a6ec60dc2b021be1eb055288a6f0acd44a9c8c811fa88ffc.png" title=" Usuario step one (completed)" width="1920"/>
+                <img src="c67f6fbdcdfdd427a6ec60dc2b021be1eb055288a6f0acd44a9c8c811fa88ffc.png" title=" When you click on the Joid Today option and the information is filled out
+| strNombre | strApellido | strEmail | strMes | strDia | strAno | strCiudad | strCodigoPostal | strPais | strComputer | strVersion | strLanguagePc | strMobileDevice | strModel | strOS | strPassword |
+| Hermes | diaz | hermeiaz12@hotmail.com | 5 | 28 | 1997 | Villavicencio | 500001 | brazil | Windows | 7 | spanish | Alcatel | MD01 | Android 2.0 | HermesDiaz19970528 | (completed)" width="1920"/>
+                <img src="c67f6fbdcdfdd427a6ec60dc2b021be1eb055288a6f0acd44a9c8c811fa88ffc.png" title=" Then a new user account must be created" width="1920"/>
+                <img src="c67f6fbdcdfdd427a6ec60dc2b021be1eb055288a6f0acd44a9c8c811fa88ffc.png" title=" Example: {strNombre=Hermes, strApellido=diaz, strEmail=hermeiaz12@hotmail.com, strMes=5, strDia=28, strAno=1997, strCiudad=Villavicencio, strCodigoPostal=500001, strPais=brazil, strComputer=Windows, strVersion=7, strLanguagePc=spanish, strMobileDevice=Alcatel, strModel=MD01, strOS=Android 2.0, strPassword=HermesDiaz19970528} (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
