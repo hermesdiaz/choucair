@@ -12,5 +12,5 @@ Feature: Account creation on uTest page
     Then a new user account must be created
     Examples:
       | strNombre | strApellido | strEmail | strMes|strDia | strAno|strCiudad | strCodigoPostal| strPais|strComputer|strVersion      | strLanguagePc       | strMobileDevice        | strModel    | strOS | strPassword |
-      | Hermes     | diaz       | hermeiaz12@hotmail.com | 5     | 28    | 1997  | Villavicencio | 500001| brazil|  Windows  | 7      | spanish       | Alcatel       | MD01    | Android 2.0 | HermesDiaz19970528        |
+      | Hermes     | diaz       | hermeci5645sadfsad6agdfgz12@hotmail.com | 5     | 28    | 1997  | Villavicencio | 500001| brazil|  Windows  | 7      | spanish       | Alcatel       | MD01    | Android 2.0 | HermesDiaz19970528        |
 

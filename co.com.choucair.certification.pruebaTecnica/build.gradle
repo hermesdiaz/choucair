@@ -16,6 +16,9 @@ buildscript {
     }
     dependencies {
         classpath("net.serenity-bdd:serenity-gradle-plugin:2.0.89")
+
+
+
     }
 }
 ext{
@@ -32,6 +35,7 @@ dependencies {
     implementation "net.serenity-bdd:serenity-screenplay:$rootProject.ext.serenityVersion"
     implementation "net.serenity-bdd:serenity-screenplay-rest:$rootProject.ext.serenityVersion"
     implementation "net.serenity-bdd:serenity-cucumber:$rootProject.ext.serenityCucumberVersion"
+    compile 'io.github.bonigarcia:webdrivermanager:3.8.1'
 
 }
 gradle.startParameter.continueOnFailure = true
