@@ -8,6 +8,7 @@ import model.DatosUsuario;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 import tasks.AbrirFormulario;
 import tasks.AbrirPagina;
+import tasks.CrearReunion;
 import tasks.CrearUnidad;
 import userinterface.IngresarDatosLogin;
 
@@ -31,7 +32,8 @@ public class TestStepDefinitions {
     @When("^se crea una nueva unidad y se se asigna a una nueva reunion$")
     public void seCreaUnaNuevaUnidadYSeSeAsignaAUnaNuevaReunion(List<DatosUsuario> DatosUsuario) throws Exception {
         theActorInTheSpotlight().attemptsTo( AbrirFormulario.the(DatosUsuario.get(0)),
-                CrearUnidad.the(DatosUsuario.get(0))
+                CrearUnidad.the(DatosUsuario.get(0)),
+                CrearReunion.the(DatosUsuario.get(0))
         );
 
     }
