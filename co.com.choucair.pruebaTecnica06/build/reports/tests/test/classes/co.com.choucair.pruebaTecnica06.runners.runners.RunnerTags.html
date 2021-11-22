@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">14.945s</div>
+<div class="counter">20.710s</div>
 <p>duration</p>
 </div>
 </td>
@@ -82,7 +82,7 @@
 </thead>
 <tr>
 <td class="success">testRunner</td>
-<td class="success">14.945s</td>
+<td class="success">20.710s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -90,11 +90,11 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>REGISTER BASE STEP LISTENER net.thucydides.core.steps.BaseStepListener@69598dbc
+<pre>REGISTER BASE STEP LISTENER net.thucydides.core.steps.BaseStepListener@41b36fe9
 
 1 Scenarios (?[32m1 passed?[0m)
 3 Steps (?[32m3 passed?[0m)
-0m12.699s
+0m18,375s
 
 </pre>
 </span>
@@ -102,8 +102,10 @@
 <div id="tab2" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (since Google Chrome 96 is installed in your machine)
-[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Tom\.m2\repository\webdriver\chromedriver\win32\96.0.4664.45\chromedriver.exe
+<pre>nov 22, 2021 9:54:07 AM java.util.prefs.WindowsPreferences &lt;init&gt;
+ADVERTENCIA: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0x80000002. Windows RegCreateKeyEx(...) returned error code 5.
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (since Google Chrome 96 is installed in your machine)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\hdiazb\.m2\repository\webdriver\chromedriver\win32\96.0.4664.45\chromedriver.exe
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
 
 -------------------------------------------------------------------------------------
@@ -121,8 +123,8 @@
  Learn Serenity BDD online at http://serenity-dojo.com                               
 -------------------------------------------------------------------------------------
 
-[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Usuario puede logearse en StarSharp page
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - testStarted: Login correcto/usuario-puede-logearse-en-starsharp-page;login-correcto
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Usuario puede crear una Reunion en la pagina StarSharp
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - testStarted: Se crea una reunion de forma correcta/usuario-puede-crear-una-reunion-en-la-pagina-starsharp;se-crea-una-reunion-de-forma-correcta
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
@@ -131,61 +133,85 @@
   |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
                                                                   
 
-TEST STARTED: Login correcto
--------------------------------------------------------------------(usuario-puede-logearse-en-starsharp-page;login-correcto)
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@5293d9c1
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@77e5205b
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@2b59fc46
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@4d88dfb3
-nov 19, 2021 4:43:13 P.M. org.openqa.selenium.remote.DesiredCapabilities chrome
+TEST STARTED: Se crea una reunion de forma correcta
+-------------------------------------------------------------------(usuario-puede-crear-una-reunion-en-la-pagina-starsharp;se-crea-una-reunion-de-forma-correcta)
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@5a768eb7
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@1399deb7
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@a457364
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@23fb7747
+nov 22, 2021 9:54:09 AM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized, goog:chromeOptions: {args: [--start-maximized], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
-Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 12930
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 14567
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-nov 19, 2021 4:43:15 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+nov 22, 2021 9:54:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Login correcto:Example: {usser=admin, =, password=serenity} [Given un usuario ingresa un nombre de usuario en el campo usuario and que ha introducido un password en el campo contrasena [Usuario abrir pagina [usuario opens the Pagina star sharp url]]]
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Login correcto:Example: {usser=admin, =, password=serenity} [Given un usuario ingresa un nombre de usuario en el campo usuario and que ha introducido un password en el campo contrasena [Usuario abrir pagina [usuario opens the Pagina star sharp url]]]
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Login correcto:Example: {usser=admin, =, password=serenity} [Given un usuario ingresa un nombre de usuario en el campo usuario and que ha introducido un password en el campo contrasena [Usuario abrir pagina [usuario opens the Pagina star sharp url]]]
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@363738f2
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@6f339ff7
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@494efac
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Login correcto:Example: {usser=admin, =, password=serenity} [Given un usuario ingresa un nombre de usuario en el campo usuario and que ha introducido un password en el campo contrasena [Usuario abrir pagina [usuario opens the Pagina star sharp url]], When se hace click en el boton
-| usser | password |
-| admin | serenity | [Usuario abrir formulario [usuario enters 'admin' into Se escribe el usuario]]]
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@22776d6a
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Login correcto:Example: {usser=admin, =, password=serenity} [Given un usuario ingresa un nombre de usuario en el campo usuario and que ha introducido un password en el campo contrasena [Usuario abrir pagina [usuario opens the Pagina star sharp url]], When se hace click en el boton
-| usser | password |
-| admin | serenity | [Usuario abrir formulario [usuario enters 'admin' into Se escribe el usuario, usuario enters 'serenity' into Se escribe la contraseÃ±a]]]
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@17ac6a31
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Login correcto:Example: {usser=admin, =, password=serenity} [Given un usuario ingresa un nombre de usuario en el campo usuario and que ha introducido un password en el campo contrasena [Usuario abrir pagina [usuario opens the Pagina star sharp url]], When se hace click en el boton
-| usser | password |
-| admin | serenity | [Usuario abrir formulario [usuario enters 'admin' into Se escribe el usuario, usuario enters 'serenity' into Se escribe la contraseÃ±a, usuario clicks on Boton que confirma el login]]]
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Login correcto:Example: {usser=admin, =, password=serenity} [Given un usuario ingresa un nombre de usuario en el campo usuario and que ha introducido un password en el campo contrasena [Usuario abrir pagina [usuario opens the Pagina star sharp url]], When se hace click en el boton
-| usser | password |
-| admin | serenity | [Usuario abrir formulario [usuario enters 'admin' into Se escribe el usuario, usuario enters 'serenity' into Se escribe la contraseÃ±a, usuario clicks on Boton que confirma el login]]]
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Login correcto:Example: {usser=admin, =, password=serenity} [Given un usuario ingresa un nombre de usuario en el campo usuario and que ha introducido un password en el campo contrasena [Usuario abrir pagina [usuario opens the Pagina star sharp url]], When se hace click en el boton
-| usser | password |
-| admin | serenity | [Usuario abrir formulario [usuario enters 'admin' into Se escribe el usuario, usuario enters 'serenity' into Se escribe la contraseÃ±a, usuario clicks on Boton que confirma el login]]]
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@32ad6a9d
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Login correcto:Example: {usser=admin, =, password=serenity} [Given un usuario ingresa un nombre de usuario en el campo usuario and que ha introducido un password en el campo contrasena [Usuario abrir pagina [usuario opens the Pagina star sharp url]], When se hace click en el boton
-| usser | password |
-| admin | serenity | [Usuario abrir formulario [usuario enters 'admin' into Se escribe el usuario, usuario enters 'serenity' into Se escribe la contraseÃ±a, usuario clicks on Boton que confirma el login]], Then deberia cargarse la pagina]
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Login correcto:Example: {usser=admin, =, password=serenity} [Given un usuario ingresa un nombre de usuario en el campo usuario and que ha introducido un password en el campo contrasena [Usuario abrir pagina [usuario opens the Pagina star sharp url]], When se hace click en el boton
-| usser | password |
-| admin | serenity | [Usuario abrir formulario [usuario enters 'admin' into Se escribe el usuario, usuario enters 'serenity' into Se escribe la contraseÃ±a, usuario clicks on Boton que confirma el login]], Then deberia cargarse la pagina]
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - testFinished: Login correcto:Example: {usser=admin, =, password=serenity} [Given un usuario ingresa un nombre de usuario en el campo usuario and que ha introducido un password en el campo contrasena [Usuario abrir pagina [usuario opens the Pagina star sharp url]], When se hace click en el boton
-| usser | password |
-| admin | serenity | [Usuario abrir formulario [usuario enters 'admin' into Se escribe el usuario, usuario enters 'serenity' into Se escribe la contraseÃ±a, usuario clicks on Boton que confirma el login]], Then deberia cargarse la pagina]
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - TestOutcomes: [Login correcto:Example: {usser=admin, =, password=serenity} [Given un usuario ingresa un nombre de usuario en el campo usuario and que ha introducido un password en el campo contrasena [Usuario abrir pagina [usuario opens the Pagina star sharp url]], When se hace click en el boton
-| usser | password |
-| admin | serenity | [Usuario abrir formulario [usuario enters 'admin' into Se escribe el usuario, usuario enters 'serenity' into Se escribe la contraseÃ±a, usuario clicks on Boton que confirma el login]], Then deberia cargarse la pagina]]
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - Final testOutcomes: [Login correcto:Example: {usser=admin, =, password=serenity} [Given un usuario ingresa un nombre de usuario en el campo usuario and que ha introducido un password en el campo contrasena [Usuario abrir pagina [usuario opens the Pagina star sharp url]], When se hace click en el boton
-| usser | password |
-| admin | serenity | [Usuario abrir formulario [usuario enters 'admin' into Se escribe el usuario, usuario enters 'serenity' into Se escribe la contraseÃ±a, usuario clicks on Boton que confirma el login]], Then deberia cargarse la pagina]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Se crea una reunion de forma correcta:Example: {usser=admin, password=serenity, bussinesName=Prueba44} [Given un usuario se ha loggeado con la credenciales correctas [Usuario abrir pagina [usuario opens the Pagina star sharp url]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Se crea una reunion de forma correcta:Example: {usser=admin, password=serenity, bussinesName=Prueba44} [Given un usuario se ha loggeado con la credenciales correctas [Usuario abrir pagina [usuario opens the Pagina star sharp url]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Se crea una reunion de forma correcta:Example: {usser=admin, password=serenity, bussinesName=Prueba44} [Given un usuario se ha loggeado con la credenciales correctas [Usuario abrir pagina [usuario opens the Pagina star sharp url]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@59156217
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@88b8bf
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@7ebaad4a
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Se crea una reunion de forma correcta:Example: {usser=admin, password=serenity, bussinesName=Prueba44} [Given un usuario se ha loggeado con la credenciales correctas [Usuario abrir pagina [usuario opens the Pagina star sharp url]], When se crea una nueva unidad y se se asigna a una nueva reunion
+| usser | password | bussinesName |
+| admin | serenity | Prueba44 | [Usuario abrir formulario [usuario enters 'admin' into Se escribe el usuario]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@38ac7597
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Se crea una reunion de forma correcta:Example: {usser=admin, password=serenity, bussinesName=Prueba44} [Given un usuario se ha loggeado con la credenciales correctas [Usuario abrir pagina [usuario opens the Pagina star sharp url]], When se crea una nueva unidad y se se asigna a una nueva reunion
+| usser | password | bussinesName |
+| admin | serenity | Prueba44 | [Usuario abrir formulario [usuario enters 'admin' into Se escribe el usuario, usuario enters 'serenity' into Se escribe la contraseÃ±a]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@5e3ec0db
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Se crea una reunion de forma correcta:Example: {usser=admin, password=serenity, bussinesName=Prueba44} [Given un usuario se ha loggeado con la credenciales correctas [Usuario abrir pagina [usuario opens the Pagina star sharp url]], When se crea una nueva unidad y se se asigna a una nueva reunion
+| usser | password | bussinesName |
+| admin | serenity | Prueba44 | [Usuario abrir formulario [usuario enters 'admin' into Se escribe el usuario, usuario enters 'serenity' into Se escribe la contraseÃ±a, usuario clicks on Boton que confirma el login]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Se crea una reunion de forma correcta:Example: {usser=admin, password=serenity, bussinesName=Prueba44} [Given un usuario se ha loggeado con la credenciales correctas [Usuario abrir pagina [usuario opens the Pagina star sharp url]], When se crea una nueva unidad y se se asigna a una nueva reunion
+| usser | password | bussinesName |
+| admin | serenity | Prueba44 | [Usuario abrir formulario [usuario enters 'admin' into Se escribe el usuario, usuario enters 'serenity' into Se escribe la contraseÃ±a, usuario clicks on Boton que confirma el login]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@719c26cf
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@2e834d6c
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Se crea una reunion de forma correcta:Example: {usser=admin, password=serenity, bussinesName=Prueba44} [Given un usuario se ha loggeado con la credenciales correctas [Usuario abrir pagina [usuario opens the Pagina star sharp url]], When se crea una nueva unidad y se se asigna a una nueva reunion
+| usser | password | bussinesName |
+| admin | serenity | Prueba44 | [Usuario abrir formulario [usuario enters 'admin' into Se escribe el usuario, usuario enters 'serenity' into Se escribe la contraseÃ±a, usuario clicks on Boton que confirma el login], Usuario crear unidad [usuario clicks on Se selecciona organizacion]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@179ba6d8
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Se crea una reunion de forma correcta:Example: {usser=admin, password=serenity, bussinesName=Prueba44} [Given un usuario se ha loggeado con la credenciales correctas [Usuario abrir pagina [usuario opens the Pagina star sharp url]], When se crea una nueva unidad y se se asigna a una nueva reunion
+| usser | password | bussinesName |
+| admin | serenity | Prueba44 | [Usuario abrir formulario [usuario enters 'admin' into Se escribe el usuario, usuario enters 'serenity' into Se escribe la contraseÃ±a, usuario clicks on Boton que confirma el login], Usuario crear unidad [usuario clicks on Se selecciona organizacion, usuario clicks on Se selecciona bussines units]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@6328fb59
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Se crea una reunion de forma correcta:Example: {usser=admin, password=serenity, bussinesName=Prueba44} [Given un usuario se ha loggeado con la credenciales correctas [Usuario abrir pagina [usuario opens the Pagina star sharp url]], When se crea una nueva unidad y se se asigna a una nueva reunion
+| usser | password | bussinesName |
+| admin | serenity | Prueba44 | [Usuario abrir formulario [usuario enters 'admin' into Se escribe el usuario, usuario enters 'serenity' into Se escribe la contraseÃ±a, usuario clicks on Boton que confirma el login], Usuario crear unidad [usuario clicks on Se selecciona organizacion, usuario clicks on Se selecciona bussines units, usuario clicks on Se crea un bussines units]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@8356e02
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Se crea una reunion de forma correcta:Example: {usser=admin, password=serenity, bussinesName=Prueba44} [Given un usuario se ha loggeado con la credenciales correctas [Usuario abrir pagina [usuario opens the Pagina star sharp url]], When se crea una nueva unidad y se se asigna a una nueva reunion
+| usser | password | bussinesName |
+| admin | serenity | Prueba44 | [Usuario abrir formulario [usuario enters 'admin' into Se escribe el usuario, usuario enters 'serenity' into Se escribe la contraseÃ±a, usuario clicks on Boton que confirma el login], Usuario crear unidad [usuario clicks on Se selecciona organizacion, usuario clicks on Se selecciona bussines units, usuario clicks on Se crea un bussines units, usuario enters 'Prueba44' into Se escribe el nombre del nuevo bussines unit]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@66c0b390
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Se crea una reunion de forma correcta:Example: {usser=admin, password=serenity, bussinesName=Prueba44} [Given un usuario se ha loggeado con la credenciales correctas [Usuario abrir pagina [usuario opens the Pagina star sharp url]], When se crea una nueva unidad y se se asigna a una nueva reunion
+| usser | password | bussinesName |
+| admin | serenity | Prueba44 | [Usuario abrir formulario [usuario enters 'admin' into Se escribe el usuario, usuario enters 'serenity' into Se escribe la contraseÃ±a, usuario clicks on Boton que confirma el login], Usuario crear unidad [usuario clicks on Se selecciona organizacion, usuario clicks on Se selecciona bussines units, usuario clicks on Se crea un bussines units, usuario enters 'Prueba44' into Se escribe el nombre del nuevo bussines unit, usuario clicks on se crea el unit]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Se crea una reunion de forma correcta:Example: {usser=admin, password=serenity, bussinesName=Prueba44} [Given un usuario se ha loggeado con la credenciales correctas [Usuario abrir pagina [usuario opens the Pagina star sharp url]], When se crea una nueva unidad y se se asigna a una nueva reunion
+| usser | password | bussinesName |
+| admin | serenity | Prueba44 | [Usuario abrir formulario [usuario enters 'admin' into Se escribe el usuario, usuario enters 'serenity' into Se escribe la contraseÃ±a, usuario clicks on Boton que confirma el login], Usuario crear unidad [usuario clicks on Se selecciona organizacion, usuario clicks on Se selecciona bussines units, usuario clicks on Se crea un bussines units, usuario enters 'Prueba44' into Se escribe el nombre del nuevo bussines unit, usuario clicks on se crea el unit]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Se crea una reunion de forma correcta:Example: {usser=admin, password=serenity, bussinesName=Prueba44} [Given un usuario se ha loggeado con la credenciales correctas [Usuario abrir pagina [usuario opens the Pagina star sharp url]], When se crea una nueva unidad y se se asigna a una nueva reunion
+| usser | password | bussinesName |
+| admin | serenity | Prueba44 | [Usuario abrir formulario [usuario enters 'admin' into Se escribe el usuario, usuario enters 'serenity' into Se escribe la contraseÃ±a, usuario clicks on Boton que confirma el login], Usuario crear unidad [usuario clicks on Se selecciona organizacion, usuario clicks on Se selecciona bussines units, usuario clicks on Se crea un bussines units, usuario enters 'Prueba44' into Se escribe el nombre del nuevo bussines unit, usuario clicks on se crea el unit]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@1ba50982
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Se crea una reunion de forma correcta:Example: {usser=admin, password=serenity, bussinesName=Prueba44} [Given un usuario se ha loggeado con la credenciales correctas [Usuario abrir pagina [usuario opens the Pagina star sharp url]], When se crea una nueva unidad y se se asigna a una nueva reunion
+| usser | password | bussinesName |
+| admin | serenity | Prueba44 | [Usuario abrir formulario [usuario enters 'admin' into Se escribe el usuario, usuario enters 'serenity' into Se escribe la contraseÃ±a, usuario clicks on Boton que confirma el login], Usuario crear unidad [usuario clicks on Se selecciona organizacion, usuario clicks on Se selecciona bussines units, usuario clicks on Se crea un bussines units, usuario enters 'Prueba44' into Se escribe el nombre del nuevo bussines unit, usuario clicks on se crea el unit]], Then se deberia crear una reunion nueva]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Se crea una reunion de forma correcta:Example: {usser=admin, password=serenity, bussinesName=Prueba44} [Given un usuario se ha loggeado con la credenciales correctas [Usuario abrir pagina [usuario opens the Pagina star sharp url]], When se crea una nueva unidad y se se asigna a una nueva reunion
+| usser | password | bussinesName |
+| admin | serenity | Prueba44 | [Usuario abrir formulario [usuario enters 'admin' into Se escribe el usuario, usuario enters 'serenity' into Se escribe la contraseÃ±a, usuario clicks on Boton que confirma el login], Usuario crear unidad [usuario clicks on Se selecciona organizacion, usuario clicks on Se selecciona bussines units, usuario clicks on Se crea un bussines units, usuario enters 'Prueba44' into Se escribe el nombre del nuevo bussines unit, usuario clicks on se crea el unit]], Then se deberia crear una reunion nueva]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - testFinished: Se crea una reunion de forma correcta:Example: {usser=admin, password=serenity, bussinesName=Prueba44} [Given un usuario se ha loggeado con la credenciales correctas [Usuario abrir pagina [usuario opens the Pagina star sharp url]], When se crea una nueva unidad y se se asigna a una nueva reunion
+| usser | password | bussinesName |
+| admin | serenity | Prueba44 | [Usuario abrir formulario [usuario enters 'admin' into Se escribe el usuario, usuario enters 'serenity' into Se escribe la contraseÃ±a, usuario clicks on Boton que confirma el login], Usuario crear unidad [usuario clicks on Se selecciona organizacion, usuario clicks on Se selecciona bussines units, usuario clicks on Se crea un bussines units, usuario enters 'Prueba44' into Se escribe el nombre del nuevo bussines unit, usuario clicks on se crea el unit]], Then se deberia crear una reunion nueva]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - TestOutcomes: [Se crea una reunion de forma correcta:Example: {usser=admin, password=serenity, bussinesName=Prueba44} [Given un usuario se ha loggeado con la credenciales correctas [Usuario abrir pagina [usuario opens the Pagina star sharp url]], When se crea una nueva unidad y se se asigna a una nueva reunion
+| usser | password | bussinesName |
+| admin | serenity | Prueba44 | [Usuario abrir formulario [usuario enters 'admin' into Se escribe el usuario, usuario enters 'serenity' into Se escribe la contraseÃ±a, usuario clicks on Boton que confirma el login], Usuario crear unidad [usuario clicks on Se selecciona organizacion, usuario clicks on Se selecciona bussines units, usuario clicks on Se crea un bussines units, usuario enters 'Prueba44' into Se escribe el nombre del nuevo bussines unit, usuario clicks on se crea el unit]], Then se deberia crear una reunion nueva]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - Final testOutcomes: [Se crea una reunion de forma correcta:Example: {usser=admin, password=serenity, bussinesName=Prueba44} [Given un usuario se ha loggeado con la credenciales correctas [Usuario abrir pagina [usuario opens the Pagina star sharp url]], When se crea una nueva unidad y se se asigna a una nueva reunion
+| usser | password | bussinesName |
+| admin | serenity | Prueba44 | [Usuario abrir formulario [usuario enters 'admin' into Se escribe el usuario, usuario enters 'serenity' into Se escribe la contraseÃ±a, usuario clicks on Boton que confirma el login], Usuario crear unidad [usuario clicks on Se selecciona organizacion, usuario clicks on Se selecciona bussines units, usuario clicks on Se crea un bussines units, usuario enters 'Prueba44' into Se escribe el nombre del nuevo bussines unit, usuario clicks on se crea el unit]], Then se deberia crear una reunion nueva]]
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
   _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
@@ -194,7 +220,7 @@ INFORMACIÓN: Detected dialect: W3C
  (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
         /_/                                                                
 
-TEST PASSED: Login correcto
+TEST PASSED: Se crea una reunion de forma correcta
 ----------------------------------------------------------------------------
 [pool-2-thread-1] INFO net.thucydides.core.requirements.PackageRequirementsTagProvider - Loading requirements from package requirements at: net.thucydides.showcase.cucumber.junit
 </pre>
@@ -208,7 +234,7 @@ TEST PASSED: Login correcto
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.2.1</a> at nov 19, 2021 4:43:26 p.m.</p>
+<a href="http://www.gradle.org">Gradle 5.2.1</a> at 22/11/2021 09:54:28 AM</p>
 </div>
 </div>
 </body>

@@ -1,13 +1,16 @@
 @stories
-Feature: Usuario puede logearse en StarSharp page
+Feature: Usuario puede crear una Reunion en la pagina StarSharp
+
   @scenario1
-  Scenario Outline: Login correcto
-    Given un usuario ingresa un nombre de usuario en el campo usuario and que ha introducido un password en el campo contrasena
-    When se hace click en el boton
-      |usser |password |
-      | <usser> | <password> |
-    Then deberia cargarse la pagina
+  Scenario Outline: Se crea una reunion de forma correcta
+    Given un usuario se ha loggeado con la credenciales correctas
+    When se crea una nueva unidad y se se asigna a una nueva reunion
+
+      |usser |password |bussinesName|
+      | <usser> | <password> | <bussinesName> |
+
+    Then se deberia crear una reunion nueva
     Examples:
-      |usser||password|
-      |admin||serenity|
+      |usser|password|bussinesName|
+      |admin|serenity|Prueba44   |
 

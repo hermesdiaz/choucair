@@ -8,6 +8,7 @@ import model.DatosUsuario;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 import tasks.AbrirFormulario;
 import tasks.AbrirPagina;
+import tasks.CrearUnidad;
 import userinterface.IngresarDatosLogin;
 
 import static net.serenitybdd.screenplay.actors.OnStage.*;
@@ -19,26 +20,24 @@ public class TestStepDefinitions {
         setTheStage(new OnlineCast());
     }
 
-    @Given("^un usuario ingresa un nombre de usuario en el campo usuario and que ha introducido un password en el campo contrasena$")
-    public void unUsuarioIngresaUnNombreDeUsuarioEnElCampoUsuarioAndQueHaIntroducidoUnPasswordEnElCampoContrasena() throws Exception {
+    @Given("^un usuario se ha loggeado con la credenciales correctas$")
+    public void unUsuarioSeHaLoggeadoConLaCredencialesCorrectas() throws Exception {
         theActorCalled("usuario").wasAbleTo(AbrirPagina.thePage()
+
                 );
 
     }
 
-
-    @When("^se hace click en el boton$")
-    public void seHaceClickEnElBoton(List<DatosUsuario> DatosUsuario) throws Exception {
-        theActorInTheSpotlight().attemptsTo(
-                AbrirFormulario.the(DatosUsuario.get(0))
-
-
-
+    @When("^se crea una nueva unidad y se se asigna a una nueva reunion$")
+    public void seCreaUnaNuevaUnidadYSeSeAsignaAUnaNuevaReunion(List<DatosUsuario> DatosUsuario) throws Exception {
+        theActorInTheSpotlight().attemptsTo( AbrirFormulario.the(DatosUsuario.get(0)),
+                CrearUnidad.the(DatosUsuario.get(0))
         );
+
     }
 
-    @Then("^deberia cargarse la pagina$")
-    public void deberiaCargarseLaPagina() throws Exception{
+    @Then("^se deberia crear una reunion nueva$")
+    public void seDeberiaCrearUnaReunionNueva() throws Exception{
 
     }
 
