@@ -1,0 +1,8 @@
+
+@
+java:S1128"Remove this duplicated import.(ÖÔœ”ùÿÿÿÿ8”ÙõÌÓ/
+r	java:S116"QRename this field "Pagina" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶²Ä¡øÿÿÿÿ8ô®ÍÓ/
+e
+java:S1128"CRemove this unused import 'net.serenitybdd.screenplay.Performable'.(ğ”„Îüÿÿÿÿ8”ÙõÌÓ/
+L
+java:S1128"/Remove this unused import 'model.DatosUsuario'.(Š±ñÛ8ô®ÍÓ/
