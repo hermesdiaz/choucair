@@ -16,7 +16,7 @@ public class CrearReunion implements Task {
     private DatosUsuario DatosUsuario;
 
     public CrearReunion(DatosUsuario DatosUsuario){ this.DatosUsuario=DatosUsuario; }
-    public static CrearReunion crearreunioncondatos(DatosUsuario DatosUsuario){
+    public static CrearReunion the(DatosUsuario DatosUsuario){
         return Tasks.instrumented(CrearReunion.class,DatosUsuario);
     }
 

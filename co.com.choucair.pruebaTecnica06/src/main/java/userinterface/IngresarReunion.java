@@ -27,11 +27,14 @@ segundonombre StartSharp_Organization_ContactDialog44_LastName
 guardarorganizado //*[@id="StartSharp_Organization_ContactDialog44_Toolbar"]/div/div/div/div[1]/div/span
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static final Target ORDER_BY_ID_BUTTON = Target.the("where you click to save the meeting").located(By.xpath("//span[text()='ID']"));
     public static final Target CREATED_MEETING_NAME_DIV = Target.the("where you click to save the meeting").located(By.xpath("//div[contains(@class,'ui-widget-content slick-row ')][last()]//div[@class='slick-cell l1 r1']//a"));
     public static final Target SELECCIONAR_ERROR = Target.the("se selecciona el error de nombre nulo de reunion").located(By.xpath("//label[@class=\"error\"]"));
 
 
+=======
+>>>>>>> parent of 5d9a0ec (Proyecto .bad)
     public static final Target GUARDAR_REUNION= Target.the("se guarda la informacion de la reunion").located(By.xpath("//span[text()=' Save'][1]"));
 =======
 atendido //*[@id="StartSharp_Meeting_MeetingDialog14_AttendeeList"]/div[1]/a/b

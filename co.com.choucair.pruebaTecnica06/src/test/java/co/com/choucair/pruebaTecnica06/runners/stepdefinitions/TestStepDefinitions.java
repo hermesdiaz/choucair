@@ -6,13 +6,11 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import model.DatosUsuario;
 import net.serenitybdd.screenplay.actors.OnlineCast;
-import questions.ReunionCreada;
 import tasks.AbrirFormulario;
 import tasks.AbrirPagina;
 import tasks.CrearUnidad;
 import userinterface.IngresarDatosLogin;
 
-import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.*;
 import java.util.List;
 
@@ -24,7 +22,7 @@ public class TestStepDefinitions {
 
     @Given("^un usuario se ha loggeado con la credenciales correctas$")
     public void unUsuarioSeHaLoggeadoConLaCredencialesCorrectas() throws Exception {
-        theActorCalled("usuario").wasAbleTo(AbrirPagina.lapagina()
+        theActorCalled("usuario").wasAbleTo(AbrirPagina.thePage()
 
                 );
 
@@ -34,18 +32,23 @@ public class TestStepDefinitions {
     public void seCreaUnaNuevaUnidadYSeSeAsignaAUnaNuevaReunion(List<DatosUsuario> DatosUsuario) throws Exception {
         theActorInTheSpotlight().attemptsTo( AbrirFormulario.the(DatosUsuario.get(0)),
 <<<<<<< HEAD
+<<<<<<< HEAD
                 CrearUnidad.crearunidadcondatos(DatosUsuario.get(0)),
                 CrearReunion.crearreunioncondatos(DatosUsuario.get(0))
 =======
                 CrearUnidad.the(DatosUsuario.get(0))
 >>>>>>> parent of 117a8eb (Ejercicio finalizado)
+=======
+                CrearUnidad.the(DatosUsuario.get(0)),
+                CrearReunion.the(DatosUsuario.get(0))
+>>>>>>> parent of 5d9a0ec (Proyecto .bad)
         );
 
     }
 
     @Then("^se deberia crear una reunion nueva$")
-    public void seDeberiaCrearUnaReunionNueva(List<DatosUsuario> DatosUsuario) throws Exception{
-        theActorInTheSpotlight().should(seeThat(ReunionCreada.secreareunion(DatosUsuario.get(0))));
+    public void seDeberiaCrearUnaReunionNueva() throws Exception{
+
     }
 
 

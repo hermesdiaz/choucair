@@ -12,7 +12,7 @@ import userinterface.PaginaStarSharpUrl;
 public class AbrirPagina implements Task{
 
     private PaginaStarSharpUrl Pagina;
-    public static AbrirPagina lapagina() {
+    public static AbrirPagina thePage() {
         return Tasks.instrumented(AbrirPagina.class);
     }
 

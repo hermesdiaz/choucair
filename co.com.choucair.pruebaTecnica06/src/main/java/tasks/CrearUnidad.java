@@ -18,7 +18,7 @@ public class CrearUnidad implements Task {
         this.DatosUsuario = DatosUsuario;
     }
 
-    public static CrearUnidad crearunidadcondatos(DatosUsuario DatosUsuario ) {
+    public static CrearUnidad the(DatosUsuario DatosUsuario ) {
         return Tasks.instrumented(CrearUnidad.class,DatosUsuario);
     }
 

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Usuario puede crear una Reunion en la pagina StarSharp" skipped="0" tests="2" time="37.48" timestamp="2021-11-24 12:02:34"><testcase name="Se crea una reunion de forma correcta"/><testcase name="Verifica el mensaje de error cuando no se ingresa valor en el nombre de la reunion"><error type="java.lang.NullPointerException"/><system-err>null&#13;
 tasks.CrearReunion.performAs(CrearReunion.java:28)&#13;
 co.com.choucair.pruebaTecnica06.runners.stepdefinitions.TestStepDefinitions.seCreaUnaNuevaUnidadYSeSeAsignaAUnaNuevaReunion(TestStepDefinitions.java:36)&#13;
@@ -7,3 +8,6 @@ co.com.choucair.pruebaTecnica06.runners.stepdefinitions.TestStepDefinitions.seCr
 =======
 <?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Usuario puede crear una Reunion en la pagina StarSharp" skipped="0" tests="1" time="18.19" timestamp="2021-11-22 09:54:08"><testcase name="Se crea una reunion de forma correcta"/></testsuite>
 >>>>>>> parent of 117a8eb (Ejercicio finalizado)
+=======
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Usuario puede crear una Reunion en la pagina StarSharp" skipped="0" tests="1" time="27.4" timestamp="2021-11-22 05:12:00"><testcase name="Se crea una reunion de forma correcta"/></testsuite>
+>>>>>>> parent of 5d9a0ec (Proyecto .bad)
