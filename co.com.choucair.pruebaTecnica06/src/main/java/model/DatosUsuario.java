@@ -5,6 +5,7 @@ public class DatosUsuario {
     private String password;
     private String bussinesName;
 <<<<<<< HEAD
+<<<<<<< HEAD
     private String nombrereunion;
 
     public String getNombrereunion() {
@@ -141,6 +142,8 @@ public class DatosUsuario {
     public void setDominio(String dominio) {
         this.dominio = dominio;
     }
+=======
+>>>>>>> parent of 117a8eb (Ejercicio finalizado)
 =======
 >>>>>>> parent of 117a8eb (Ejercicio finalizado)
 

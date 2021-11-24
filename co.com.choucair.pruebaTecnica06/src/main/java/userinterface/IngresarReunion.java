@@ -16,6 +16,7 @@ public class IngresarReunion extends PageObject {
 
     public static final Target ORGANIZADO= Target.the("seleccionar organizado").located(By.xpath("//*[@id=\"StartSharp_Meeting_MeetingDialog14_PropertyGrid\"]/div/div/div[8]/a/b"));
     public static final Target ORGANIZADO_TITULO = Target.the("se ingresa el nombre de localizacion").located(By.id("StartSharp_Meeting_MeetingLocationDialog37_Name"));
+<<<<<<< HEAD
 
 }
 
@@ -25,6 +26,10 @@ titulo StartSharp_Organization_ContactDialog44_Title
 primernombre StartSharp_Organization_ContactDialog44_FirstName
 segundonombre StartSharp_Organization_ContactDialog44_LastName
 guardarorganizado //*[@id="StartSharp_Organization_ContactDialog44_Toolbar"]/div/div/div/div[1]/div/span
+=======
+
+}
+>>>>>>> parent of 117a8eb (Ejercicio finalizado)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32,16 +37,28 @@ guardarorganizado //*[@id="StartSharp_Organization_ContactDialog44_Toolbar"]/div
     public static final Target CREATED_MEETING_NAME_DIV = Target.the("where you click to save the meeting").located(By.xpath("//div[contains(@class,'ui-widget-content slick-row ')][last()]//div[@class='slick-cell l1 r1']//a"));
     public static final Target SELECCIONAR_ERROR = Target.the("se selecciona el error de nombre nulo de reunion").located(By.xpath("//label[@class=\"error\"]"));
 
+<<<<<<< HEAD
 
 =======
 >>>>>>> parent of 5d9a0ec (Proyecto .bad)
     public static final Target GUARDAR_REUNION= Target.the("se guarda la informacion de la reunion").located(By.xpath("//span[text()=' Save'][1]"));
 =======
+=======
+organizado por //*[@id="StartSharp_Meeting_MeetingDialog14_PropertyGrid"]/div/div/div[8]/a/b
+titulo StartSharp_Organization_ContactDialog44_Title
+primernombre StartSharp_Organization_ContactDialog44_FirstName
+segundonombre StartSharp_Organization_ContactDialog44_LastName
+guardarorganizado //*[@id="StartSharp_Organization_ContactDialog44_Toolbar"]/div/div/div/div[1]/div/span
+
+>>>>>>> parent of 117a8eb (Ejercicio finalizado)
 atendido //*[@id="StartSharp_Meeting_MeetingDialog14_AttendeeList"]/div[1]/a/b
 titulo StartSharp_Organization_ContactDialog62_Title
 nombre StartSharp_Organization_ContactDialog62_FirstName
 apellido StartSharp_Organization_ContactDialog62_LastName
 guardar //*[@id="StartSharp_Organization_ContactDialog62_Toolbar"]/div/div/div/div[1]/div/span
+<<<<<<< HEAD
+>>>>>>> parent of 117a8eb (Ejercicio finalizado)
+=======
 >>>>>>> parent of 117a8eb (Ejercicio finalizado)
 
 numero de reunion StartSharp_Meeting_MeetingDialog14_MeetingNumber
