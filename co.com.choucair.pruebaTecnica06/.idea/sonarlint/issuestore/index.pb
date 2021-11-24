@@ -18,6 +18,7 @@ c
 Ž
 ^src/test/java/co/com/choucair/pruebaTecnica06/runners/stepdefinitions/TestStepDefinitions.java,1\c\1c6eade4a8410acea5beb0b76e677f18669b665b
 }
+<<<<<<< HEAD
 Msrc/test/java/co/com/choucair/pruebaTecnica06/runners/runners/RunnerTags.java,5\9\599366899afc9bf86c52ffad50bca958b50e141c
 `
 0src/main/java/userinterface/IngresarReunion.java,e\8\e8d7c9cf255d6459ad11c3a512dd4047c24f0df9
@@ -33,3 +34,6 @@ _
 /src/main/java/questions/ErrorNombreReunion.java,9\3\93b70d5e01c7df8fd96b056757ffc42a85b0c5f8
 ’
 bsrc/test/java/co/com/choucair/pruebaTecnica06/runners/stepdefinitions/TestStepDefinitionError.java,5\d\5d74230647b76690c5657b989ce9893289998977
+=======
+Msrc/test/java/co/com/choucair/pruebaTecnica06/runners/runners/RunnerTags.java,5\9\599366899afc9bf86c52ffad50bca958b50e141c
+>>>>>>> parent of 117a8eb (Ejercicio finalizado)

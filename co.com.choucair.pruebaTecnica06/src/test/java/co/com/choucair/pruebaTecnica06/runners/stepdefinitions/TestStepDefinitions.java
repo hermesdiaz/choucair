@@ -9,7 +9,6 @@ import net.serenitybdd.screenplay.actors.OnlineCast;
 import questions.ReunionCreada;
 import tasks.AbrirFormulario;
 import tasks.AbrirPagina;
-import tasks.CrearReunion;
 import tasks.CrearUnidad;
 import userinterface.IngresarDatosLogin;
 
@@ -34,8 +33,12 @@ public class TestStepDefinitions {
     @When("^se crea una nueva unidad y se se asigna a una nueva reunion$")
     public void seCreaUnaNuevaUnidadYSeSeAsignaAUnaNuevaReunion(List<DatosUsuario> DatosUsuario) throws Exception {
         theActorInTheSpotlight().attemptsTo( AbrirFormulario.the(DatosUsuario.get(0)),
+<<<<<<< HEAD
                 CrearUnidad.crearunidadcondatos(DatosUsuario.get(0)),
                 CrearReunion.crearreunioncondatos(DatosUsuario.get(0))
+=======
+                CrearUnidad.the(DatosUsuario.get(0))
+>>>>>>> parent of 117a8eb (Ejercicio finalizado)
         );
 
     }

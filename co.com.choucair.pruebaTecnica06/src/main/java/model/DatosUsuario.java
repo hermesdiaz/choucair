@@ -4,6 +4,7 @@ public class DatosUsuario {
     private String usser;
     private String password;
     private String bussinesName;
+<<<<<<< HEAD
     private String nombrereunion;
     private  String nombrereunionesperado;
     private String nombredeerrror;
@@ -158,6 +159,8 @@ public class DatosUsuario {
     public void setDominio(String dominio) {
         this.dominio = dominio;
     }
+=======
+>>>>>>> parent of 117a8eb (Ejercicio finalizado)
 
     public String getUsser() {
         return usser;
