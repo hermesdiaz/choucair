@@ -1,0 +1,11 @@
+
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û×“
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°æÓË
+q	java:S116"WRename this field "DatosUsuario" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô‰­éúÿÿÿÿ
+K
+java:S1128"5Remove this unused import 'org.openqa.selenium.Keys'.(§Õ
+^
+java:S1128
+"CRemove this unused import 'net.serenitybdd.screenplay.actions.Hit'.(Ğş²îùÿÿÿÿ
+`
+java:S1128	"JRemove this unused import 'net.serenitybdd.screenplay.actions.EnterValue'.(ç•Ø²

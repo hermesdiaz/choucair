@@ -5,6 +5,24 @@ public class DatosUsuario {
     private String password;
     private String bussinesName;
     private String nombrereunion;
+    private  String nombrereunionesperado;
+    private String nombredeerrror;
+
+    public String getNombredeerrror() {
+        return nombredeerrror;
+    }
+
+    public void setNombredeerrror(String nombredeerrror) {
+        this.nombredeerrror = nombredeerrror;
+    }
+
+    public String getNombrereunionesperado() {
+        return nombrereunionesperado;
+    }
+
+    public void setNombrereunionesperado(String nombrereunionesperado) {
+        this.nombrereunionesperado = nombrereunionesperado;
+    }
 
     public String getNombrereunion() {
         return nombrereunion;

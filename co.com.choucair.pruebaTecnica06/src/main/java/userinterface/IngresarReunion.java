@@ -46,6 +46,11 @@ public class IngresarReunion extends PageObject {
     public static final Target REPORTERO_CORREO_DOMINIO = Target.the("se ingresa el dominio del correo").located(By.className("emaildomain"));
     public static final Target REPORTERO_GUARDAR= Target.the("se guarda la informacion de reportero").located(By.xpath("//div[@class='ui-dialog ui-corner-all ui-widget ui-widget-content ui-front s-Dialog s-ContactDialog s-Organization-ContactDialog ui-draggable ui-resizable flex-layout']/div/div/div/div/div/div/div/div"));
 
+    public static final Target ORDER_BY_ID_BUTTON = Target.the("where you click to save the meeting").located(By.xpath("//span[text()='ID']"));
+    public static final Target CREATED_MEETING_NAME_DIV = Target.the("where you click to save the meeting").located(By.xpath("//div[contains(@class,'ui-widget-content slick-row ')][last()]//div[@class='slick-cell l1 r1']//a"));
+    public static final Target SELECCIONAR_ERROR = Target.the("se selecciona el error de nombre nulo de reunion").located(By.xpath("//label[@class=\"error\"]"));
+
+
     public static final Target GUARDAR_REUNION= Target.the("se guarda la informacion de la reunion").located(By.xpath("//span[text()=' Save'][1]"));
 
 }

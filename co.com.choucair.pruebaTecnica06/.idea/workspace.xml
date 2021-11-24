@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8f6339e-4f31-49f1-9611-ceb1aa8fa852" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/CrearReunion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/questions/ErrorNombreReunion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/questions/ReunionCreada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/userinterface/WelcomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/choucair/pruebaTecnica06/runners/stepdefinitions/TestStepDefinitionError.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -16,8 +19,10 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/4/040028cb0d7071668ff257196f543a289eb7b64c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/4/040028cb0d7071668ff257196f543a289eb7b64c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a72aec27ca915dc937fba187482095187431bb92" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a72aec27ca915dc937fba187482095187431bb92" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/8/e8d7c9cf255d6459ad11c3a512dd4047c24f0df9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/8/e8d7c9cf255d6459ad11c3a512dd4047c24f0df9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/co.com.choucair.pruebaTecnica06.runners.runners.RunnerTags.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/co.com.choucair.pruebaTecnica06.runners.runners.RunnerTags.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
@@ -28,7 +33,11 @@
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/DatosUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/DatosUsuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/AbrirPagina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/AbrirPagina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/CrearReunion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/CrearReunion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/CrearUnidad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/CrearUnidad.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/userinterface/IngresarReunion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/userinterface/IngresarReunion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/choucair/pruebaTecnica06/runners/runners/RunnerTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/choucair/pruebaTecnica06/runners/runners/RunnerTags.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/co/com/choucair/pruebaTecnica06/runners/stepdefinitions/TestStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/choucair/pruebaTecnica06/runners/stepdefinitions/TestStepDefinitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/starsharp.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/starsharp.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/17ec947a5389c83368bb8e65021ecef9f7a457314cf9174b38e4b484167dd715.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/17ec947a5389c83368bb8e65021ecef9f7a457314cf9174b38e4b484167dd715.html" afterDir="false" />

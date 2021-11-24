@@ -1,0 +1,17 @@
+
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8¿ô–òÔ/
+;
+java:S1128"Remove this duplicated import.(Š±ñÛ8ËÓ§òÔ/
+b
+java:S1128"FRemove this unused import 'userinterface.WelcomePage.WELCOME_MESSAGE'.(æ«Æ\8ğ—›óÔ/
+U	java:S106+"9Replace this use of System.out or System.err by a logger.(ÿøç÷8„öÑóÔ/
+Z	java:S106*"9Replace this use of System.out or System.err by a logger.(ˆ“–ùÿÿÿÿ8„öÑóÔ/
+d
+java:S1128"GRemove this unused import 'net.serenitybdd.screenplay.waits.WaitUntil'.(˜• Ü8¿ô–òÔ/
+c
+java:S2142$"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8 †½óÔ/
+g
+java:S1764,"ECorrect one of the identical sub-expressions on both sides of equals.(äŞÓ‰ıÿÿÿÿ8„öÑóÔ/
+\
+java:S1128	":Remove this unused import 'userinterface.IngresarReunion'.(â“÷Ôøÿÿÿÿ8Œ¥óÔ/
