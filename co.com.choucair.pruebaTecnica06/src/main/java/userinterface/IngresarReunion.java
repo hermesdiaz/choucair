@@ -17,9 +17,15 @@ public class IngresarReunion extends PageObject {
     public static final Target ORGANIZADO= Target.the("seleccionar organizado").located(By.xpath("//*[@id=\"StartSharp_Meeting_MeetingDialog14_PropertyGrid\"]/div/div/div[8]/a/b"));
     public static final Target ORGANIZADO_TITULO = Target.the("se ingresa el nombre de localizacion").located(By.id("StartSharp_Meeting_MeetingLocationDialog37_Name"));
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+}
+>>>>>>> parent of 117a8eb (Ejercicio finalizado)
 
 }
 
+<<<<<<< HEAD
 
 organizado por //*[@id="StartSharp_Meeting_MeetingDialog14_PropertyGrid"]/div/div/div[8]/a/b
 titulo StartSharp_Organization_ContactDialog44_Title
@@ -71,5 +77,29 @@ nombre StartSharp_Organization_ContactDialog80_FirstName
 apellido StartSharp_Organization_ContactDialog80_LastName
 guardar //*[@id="StartSharp_Organization_ContactDialog80_Toolbar"]/div/div/div/div[1]/div/span
 
+=======
+organizado por //*[@id="StartSharp_Meeting_MeetingDialog14_PropertyGrid"]/div/div/div[8]/a/b
+titulo StartSharp_Organization_ContactDialog44_Title
+primernombre StartSharp_Organization_ContactDialog44_FirstName
+segundonombre StartSharp_Organization_ContactDialog44_LastName
+guardarorganizado //*[@id="StartSharp_Organization_ContactDialog44_Toolbar"]/div/div/div/div[1]/div/span
+
+atendido //*[@id="StartSharp_Meeting_MeetingDialog14_AttendeeList"]/div[1]/a/b
+titulo StartSharp_Organization_ContactDialog62_Title
+nombre StartSharp_Organization_ContactDialog62_FirstName
+apellido StartSharp_Organization_ContactDialog62_LastName
+guardar //*[@id="StartSharp_Organization_ContactDialog62_Toolbar"]/div/div/div/div[1]/div/span
+
+numero de reunion StartSharp_Meeting_MeetingDialog14_MeetingNumber
+
+seleccionarunit select2-chosen-8
+
+reportero //*[@id="StartSharp_Meeting_MeetingDialog14_PropertyGrid"]/div/div/div[9]/a/b
+titulo StartSharp_Organization_ContactDialog80_Title
+nombre StartSharp_Organization_ContactDialog80_FirstName
+apellido StartSharp_Organization_ContactDialog80_LastName
+guardar //*[@id="StartSharp_Organization_ContactDialog80_Toolbar"]/div/div/div/div[1]/div/span
+
+>>>>>>> parent of 117a8eb (Ejercicio finalizado)
 
 guardar reunion //*[@id="StartSharp_Meeting_MeetingDialog14_Toolbar"]/div/div/div/div[1]/div/span

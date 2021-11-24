@@ -20,6 +20,7 @@ c
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Msrc/test/java/co/com/choucair/pruebaTecnica06/runners/runners/RunnerTags.java,5\9\599366899afc9bf86c52ffad50bca958b50e141c
 `
 0src/main/java/userinterface/IngresarReunion.java,e\8\e8d7c9cf255d6459ad11c3a512dd4047c24f0df9
@@ -42,6 +43,9 @@ Msrc/test/java/co/com/choucair/pruebaTecnica06/runners/runners/RunnerTags.java,
 =======
 %src/main/java/tasks/CrearReunion.java,a\7\a72aec27ca915dc937fba187482095187431bb92
 >>>>>>> parent of 5d9a0ec (Proyecto .bad)
+=======
+Msrc/test/java/co/com/choucair/pruebaTecnica06/runners/runners/RunnerTags.java,5\9\599366899afc9bf86c52ffad50bca958b50e141c
+>>>>>>> parent of 117a8eb (Ejercicio finalizado)
 =======
 Msrc/test/java/co/com/choucair/pruebaTecnica06/runners/runners/RunnerTags.java,5\9\599366899afc9bf86c52ffad50bca958b50e141c
 >>>>>>> parent of 117a8eb (Ejercicio finalizado)

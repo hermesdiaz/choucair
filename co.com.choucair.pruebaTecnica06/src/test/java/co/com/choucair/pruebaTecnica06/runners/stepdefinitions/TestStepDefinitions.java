@@ -34,6 +34,7 @@ public class TestStepDefinitions {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 CrearUnidad.crearunidadcondatos(DatosUsuario.get(0)),
                 CrearReunion.crearreunioncondatos(DatosUsuario.get(0))
 =======
@@ -43,6 +44,9 @@ public class TestStepDefinitions {
                 CrearUnidad.the(DatosUsuario.get(0)),
                 CrearReunion.the(DatosUsuario.get(0))
 >>>>>>> parent of 5d9a0ec (Proyecto .bad)
+=======
+                CrearUnidad.the(DatosUsuario.get(0))
+>>>>>>> parent of 117a8eb (Ejercicio finalizado)
 =======
                 CrearUnidad.the(DatosUsuario.get(0))
 >>>>>>> parent of 117a8eb (Ejercicio finalizado)

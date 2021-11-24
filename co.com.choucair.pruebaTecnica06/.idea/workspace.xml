@@ -8,11 +8,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/main/java/questions/ErrorNombreReunion.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/questions/ReunionCreada.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/userinterface/WelcomePage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/co/com/choucair/pruebaTecnica06/runners/stepdefinitions/TestStepDefinitionError.java" afterDir="false" />
 =======
+=======
+>>>>>>> parent of 117a8eb (Ejercicio finalizado)
 =======
 >>>>>>> parent of 117a8eb (Ejercicio finalizado)
       <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
@@ -23,10 +26,13 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/userinterface/IngresarReunion.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/userinterface/IngresarUnidad.java" afterDir="false" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 117a8eb (Ejercicio finalizado)
 =======
       <change afterPath="$PROJECT_DIR$/src/main/java/tasks/CrearReunion.java" afterDir="false" />
 >>>>>>> parent of 5d9a0ec (Proyecto .bad)
+=======
+>>>>>>> parent of 117a8eb (Ejercicio finalizado)
 =======
 >>>>>>> parent of 117a8eb (Ejercicio finalizado)
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
@@ -50,11 +56,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 117a8eb (Ejercicio finalizado)
 =======
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
 >>>>>>> parent of 5d9a0ec (Proyecto .bad)
+=======
+>>>>>>> parent of 117a8eb (Ejercicio finalizado)
 =======
 >>>>>>> parent of 117a8eb (Ejercicio finalizado)
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -73,6 +82,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/main/java/tasks/AbrirPagina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/AbrirPagina.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tasks/CrearReunion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/CrearReunion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tasks/CrearUnidad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/CrearUnidad.java" afterDir="false" />
@@ -83,6 +93,8 @@
 =======
       <change beforePath="$PROJECT_DIR$/src/main/java/userinterface/IngresarReunion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/userinterface/IngresarReunion.java" afterDir="false" />
 >>>>>>> parent of 5d9a0ec (Proyecto .bad)
+=======
+>>>>>>> parent of 117a8eb (Ejercicio finalizado)
 =======
 >>>>>>> parent of 117a8eb (Ejercicio finalizado)
       <change beforePath="$PROJECT_DIR$/src/test/java/co/com/choucair/pruebaTecnica06/runners/stepdefinitions/TestStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/choucair/pruebaTecnica06/runners/stepdefinitions/TestStepDefinitions.java" afterDir="false" />
